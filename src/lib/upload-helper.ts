@@ -318,7 +318,7 @@ class UploadHelper {
         onSuccess() {
           resolve(upload);
         },
-        onBeforeRequest: function (req) {
+        onBeforeRequest: function (req:any) {
             var xhr = req.getUnderlyingObject()
             xhr.withCredentials = uploadWithCredentials;
         },

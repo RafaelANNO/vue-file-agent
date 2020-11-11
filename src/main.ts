@@ -2,7 +2,7 @@ import Vue from 'vue';
 import './demo/demo-base';
 import App from './App.vue';
 
-import VueFileAgent from './index';
+import VueFileAgent from './index.js';
 
 import { SlickList, SlickItem } from 'vue-slicksort';
 
